@@ -1,4 +1,6 @@
-// vite.config.js
-export default {
-  base: '/vitecode/', // 這行最重要，要對應你的 Repo 名稱
-}
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  // 這裡的名稱必須跟你的 GitHub 倉庫名稱 (vitecode) 一模一樣
+  base: '/vitecode/', 
+})
