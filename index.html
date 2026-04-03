@@ -1,14 +1,26 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vitecode/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vitecode</title>
-    <script type="module" crossorigin src="/vitecode/assets/index-Bhede4i3.js"></script>
-    <link rel="stylesheet" crossorigin href="/vitecode/assets/index-CsUDhMuy.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>妙麗的狗狗年齡計算器</title>
+  <link rel="stylesheet" crossorigin href="/vitecode/assets/index-YaY1FOLT.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐶 妙麗的狗狗年齡計算器</h1>
+    
+    <p>輸入妙麗的出生年月日，看看她的狗狗年齡，以及換算成人類年齡：</p>
+
+    <label for="birthdate">出生年月日：</label>
+    <input type="date" id="birthdate" value="2023-02-28">
+    <button id="calculateBtn">計算年齡</button>
+
+    <div class="result">
+      <p id="dogAge">狗狗年齡：-</p>
+      <p id="humanAge">換算人類年齡：-</p>
+    </div>
+  </div>
+
+  <script src="./src/js/script.js"></script>
+</body>
 </html>
